@@ -1,14 +1,19 @@
-document.addEventListener("DOMContentLoaded", () => {
+function displayMessage() {
     const welcomeMessage = document.createElement("p");
     welcomeMessage.textContent = "JavaScript je uspešno učitan!";
     welcomeMessage.style.color = "blue";
     document.body.appendChild(welcomeMessage);
+}
 
-// Funkcionalnost za promenu boje pozadine
+function changeBackgroundColor() {
+    document.body.style.backgroundColor = "lightcoral";
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+    displayMessage();
+
     const button = document.getElementById("changeColorBtn");
-  if(button){
-    button.addEventListener("click", () => {
-        document.body.style.backgroundColor = "lightcoral";
-    });
-   }
+    if (button) {
+        button.addEventListener("click", changeBackgroundColor);
+    }
 });
