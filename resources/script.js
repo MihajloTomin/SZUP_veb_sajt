@@ -6,9 +6,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // Funkcionalnost za promenu boje pozadine
     const button = document.getElementById("changeColorBtn");
+  if(button){
     button.addEventListener("click", () => {
         document.body.style.backgroundColor = "lightcoral";
     });
-
-
+   }
 });
