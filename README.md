@@ -1,1 +1,2 @@
 # SZUP_veb_sajt
+Ovaj projekat predstavlja jednostavnu web stranicu koja koristi HTML, CSS i JavaScript. Stranica prikazuje poruku kada se učita, omogućava promenu boje pozadine pomoću dugmeta i sadrži osnovnu kontakt formu.
